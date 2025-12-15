@@ -1,0 +1,45 @@
+.status-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: baseline;
+}
+
+.label {
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.separator {
+  color: blue;
+  font-weight: bold;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.value {
+  color: #333;
+  word-break: break-all;
+}
+
+.description {
+  margin-top: 30px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.description a {
+  color: blue;
+  text-decoration: none;
+}

@@ -1,9 +1,20 @@
 a {
-  color: blue;
+  color: var(--app-primary-color);
   text-decoration: none;
-  border: 1px solid blue;
+  border: 1px solid var(--app-primary-color);
   border-radius: 4px;
 }
 a.-st-active {
-  background-color: silver;
+  background-color: var(--app-surface-container-color);
+}
+
+.title-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar {
+  gap: 10px;
+  margin-bottom: 20px;
 }
